@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.IO;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Console;
@@ -72,18 +72,20 @@ namespace Delegate
             {
                 Work = work;
             }
+            Person persons;
             private string _work;
             public string Work
             {
                 get => _work;
                 set
                 {
+                    string persons = null;
                     string oldWork = _work;
                     _work = value;
-                    onWorkChanged?.Invoke(oldWork, value);
+                    onWorkChanged?.Invoke(persons + oldWork, value);
                 }
             }
-            /*public void Count()
+          /*  public void Count()
             {
                 int count = 0;
                 for (int i = 0; i < count; i++)
@@ -132,6 +134,7 @@ namespace Delegate
             p3 = new Person("Сергеев Сергей Сергеевич", 55),
             p4 = new Person("Андреев Андрей Андреевич", 66),
             p5 = new Person("Алексеев Алексей Алексеевич", 77);
+
             
             List<Person> Persons = new List<Person>() { p1, p2, p3, p4, p5 };
 

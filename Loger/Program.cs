@@ -11,7 +11,7 @@ namespace Loger
             private string Type_Message = null;
             private string Name_User = null;
             private string Message = null;
-            public Loger(string date, string time, string type_message, string name_user, string message )
+            public Loger(string date, string time, string type_message, string name_user, string message)
             {
                 Date = date;
                 Time = time;
@@ -26,5 +26,5 @@ namespace Loger
 
         }
 
-    
+    }
 }
