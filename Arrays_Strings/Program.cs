@@ -144,11 +144,11 @@ namespace Arrays_Strings
             WriteLine("Сумма элементов массива равна = " + Sum);
           
             WriteLine("-------------------------------------");
-            
+
 
 
             //8.Создайте массив из 100 случайных значений от 1 до 100.Выведите на экран количество четных и нечетных чисел в этом массиве.
-            
+
 
 
 
@@ -160,8 +160,78 @@ namespace Arrays_Strings
             //14.В строке "Привет, Иван!" замените слово "Привет" на слово "Пока".
             //15.В строке "qwe rty uio pas dfg hjk lzx cvb nmq" найдите позицию первого пробела.
             //16.В строке из предыдущего примера найдите позицию второго пробела.
+            
+            
+            #region
+         /*   WriteColoredLine("Task 6:");
+            string lang = "";
+            string ruDays = "Понедельник Вторник Среда Четверг Пятница Суббота Воскреcенье";
+            string enDays = "Monday Tuesday Wednesday Thursday Friday Saturday Sunday";
+            string[] arr6 = new string[7];
+            while (lang != "ru" && lang != "en")
+            {
+                WriteLine("Введите значени lang (ru/en)");
+                lang = ReadLine();
+            }
 
+            // Реализация с if
+            if (lang == "ru")
+            {
+                lang = ruDays;
+                arr6 = lang.Split(' ');
+            }
+            if (lang == "en")
+            {
+                lang = enDays;
+                arr6 = lang.Split(' ');
+            }
 
+            //Реализация со Switch
+            //switch (lang)
+            //{
+            //    case "ru":
+            //        lang = ruDays;
+            //        arr6 = lang.Split(' ');
+            //        break;
+            //    case "en":
+            //        lang = enDays;
+            //        arr6 = lang.Split(' ');
+            //        break;
+            //}
+
+            foreach (var item in arr6)
+            {
+                WriteLine(item);
+            }
+
+            //Реализация с многомерным массивом. Но я без понятия, как можно сделать без if
+            //string[,] days = { 
+            //    { "Понедельник", "Monday" }, 
+            //    { "Вторник", "Tuesday" },  
+            //    { "Среда", "Wednesday" }, 
+            //    { "Четверг", "Thursday" }, 
+            //    { "Пятница", "Friday" }, 
+            //    { "Суббота", "Saturday" }, 
+            //    { "Воскресенье", "Sunday" } };
+
+            //if (lang=="ru")
+            //{
+
+            //    for (int i = 0; i < 7; i++)
+            //    {
+            //        WriteLine(days[i, 0]);
+            //    }
+            //}
+            //else
+            //{
+            //    for (int i = 0; i < 7; i++)
+            //    {
+            //        WriteLine(days[i, 1]);
+            //    }
+            //}
+
+            ReadKey();*/
+#endregion
 
 
             ReadKey();

@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delegate.csproj", "{1EB474CD-4A19-4BEC-8085-AAAC38C7AD14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loger", "Loger\Loger.csproj", "{118B9674-3CCC-4253-990E-1EDED05AFD23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loger", "Loger\Loger.csproj", "{118B9674-3CCC-4253-990E-1EDED05AFD23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays_Strings", "Arrays_Strings\Arrays_Strings.csproj", "{43483D1F-0F99-4327-84AF-4D8E5EC24B80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays_Strings", "Arrays_Strings\Arrays_Strings.csproj", "{43483D1F-0F99-4327-84AF-4D8E5EC24B80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{8EB5B782-7E71-45A2-A0C4-77EC9B79E9F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{43483D1F-0F99-4327-84AF-4D8E5EC24B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43483D1F-0F99-4327-84AF-4D8E5EC24B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43483D1F-0F99-4327-84AF-4D8E5EC24B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB5B782-7E71-45A2-A0C4-77EC9B79E9F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB5B782-7E71-45A2-A0C4-77EC9B79E9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB5B782-7E71-45A2-A0C4-77EC9B79E9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB5B782-7E71-45A2-A0C4-77EC9B79E9F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

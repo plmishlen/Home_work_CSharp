@@ -1,28 +1,27 @@
-﻿using System;
+﻿//Задание 1. Программа «Loger».
+//Реализовать программный модуль (класс Loger), позволяющий записывать информацию о работе программы в log-файл.
+//Данный класс должен быть реализован в виде .dll.
+
+using System;
+using System.IO;
+using Logger;
+
 
 namespace Loger
 {
     class Program
     {
-        public class Loger
-        {
-            private string Date = null;
-            private string Time = null;
-            private string Type_Message = null;
-            private string Name_User = null;
-            private string Message = null;
-            public Loger(string date, string time, string type_message, string name_user, string message)
-            {
-                Date = date;
-                Time = time;
-                Message = type_message;
-                Name_User = name_user;
-                Message = message;
-            }
 
-        }
+
         static void Main(string[] args)
         {
+            Info info = new Info();
+            info.Date = DateTime.Now;
+            info.Type_message = "Предупреждение";
+            info.Name_user = "Иванов";
+            info.Message = "В файле допущена ошибка";
+            Logger.Loger.Config("Config.ini");
+            Logger.Loger.LogIn(info);
 
         }
 
