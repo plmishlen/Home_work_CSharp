@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loger", "Loger\Loger.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays_Strings", "Arrays_Strings\Arrays_Strings.csproj", "{43483D1F-0F99-4327-84AF-4D8E5EC24B80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{8EB5B782-7E71-45A2-A0C4-77EC9B79E9F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logger", "Logger\Logger.csproj", "{8EB5B782-7E71-45A2-A0C4-77EC9B79E9F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization_HW", "Serialization_HW\Serialization_HW.csproj", "{48DF8724-9BCB-4C08-8231-6C67D15275D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8EB5B782-7E71-45A2-A0C4-77EC9B79E9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EB5B782-7E71-45A2-A0C4-77EC9B79E9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EB5B782-7E71-45A2-A0C4-77EC9B79E9F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48DF8724-9BCB-4C08-8231-6C67D15275D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DF8724-9BCB-4C08-8231-6C67D15275D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48DF8724-9BCB-4C08-8231-6C67D15275D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DF8724-9BCB-4C08-8231-6C67D15275D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
